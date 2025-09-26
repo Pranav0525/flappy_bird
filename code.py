@@ -18,4 +18,10 @@ while running:
     screen.fill((135, 206, 250))
 
     for event in pygame.event.get():
-        if event.type == pygame.QUIT
+        if event.type == pygame.QUIT:
+            running = False
+        
+    pygame.display.update()
+
+pygame.quit()
+sys.exit()
